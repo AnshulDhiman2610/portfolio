@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* SECTION */
+.about{
+    padding:60px 10%;
+}
+
+/* CONTAINER */
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+/* IMAGE */
+.about-image img{
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* CONTENT */
+.about-content{
+    max-width:600px;
+}
+
+.about-content h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.about-content h3{
+    color:royalblue;
+    margin-bottom:15px;
+}
+
+.about-content p{
+    margin-bottom:15px;
+    line-height:1.6;
+    color:#333;
+}
+
+/* SKILLS */
+.skills h2{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.skills ul{
+    list-style:none;
+}
+
+.skills ul li{
+    background:royalblue;
+    color:white;
+    display:inline-block;
+    padding:8px 12px;
+    margin:5px;
+    border-radius:5px;
+    font-size:14px;
+}
+
+/* BUTTONS */
+.buttons{
+    margin-top:20px;
+}
+
+.btn{
+    background:royalblue;
+    color:white;
+    padding:10px 18px;
+    margin-right:10px;
+    border-radius:5px;
+    display:inline-block;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#333;
+}
+
+.btn.outline{
+    background:none;
+    border:2px solid royalblue;
+    color:royalblue;
+}
+
+.btn.outline:hover{
+    background:royalblue;
+    color:white;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-image img{
+        width:200px;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Anshul Dhiman</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-nav"></div>
+
+    <main id="main">
+        <section class="container">
+            <h1 class="page-title reveal">Resume</h1>
+            <p class="page-lead reveal">
+                Preview my resume below or download the PDF.
+            </p>
+
+            <div class="btn-row reveal">
+                <a class="btn primary" href="resume.pdf" download>
+                    <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Download Resume (PDF)
+                </a>
+            </div>
+
+            <div class="resume-frame reveal" style="margin-top: 16px;">
+                <object data="resume.pdf" type="application/pdf">
+                    <iframe src="resume.pdf" title="Resume preview"></iframe>
+                </object>
+            </div>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
